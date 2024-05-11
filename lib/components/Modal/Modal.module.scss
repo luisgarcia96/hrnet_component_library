@@ -1,0 +1,37 @@
+.modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    .content {
+        background-color: #ffffff;
+        border: 1px solid #000;
+        position: relative;
+        width: 25rem;
+        padding: 1rem;
+        border-radius: 0.25rem;
+        margin: auto;
+        margin-top: 20rem;
+
+        .close {
+            position: absolute;
+            top: -0.5rem;
+            right: -0.7rem;
+            border-radius: 50%;
+            border: 1px solid #000;
+            background-color: #000;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .message {
+            font-family: 'Arial', sans-serif;
+            font-size: 1rem;
+        }
+    }
+}
