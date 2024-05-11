@@ -1,4 +1,4 @@
-# HRnet Design System
+# HRnet Component Library
 
 This package was created as part of the last project of the OpenClassrooms's React Developer path. It contains the Modal UI component of the project.
 
